@@ -1,3 +1,4 @@
+import 'dart:developer';
 import 'dart:io';
 import 'playground/updates.dart';
 
@@ -6,7 +7,7 @@ import 'playground/updates.dart';
 //import 'grasp/low_coupling.dart';
 
 void main() {
-  print('Version Dart: ${Platform.version}');
+  log('Version Dart: ${Platform.version}');
   /// GRASP: Information Expert
   // OrderGood order = OrderGood([
   //   OrderGoodItem(GoodGood(20), 2),
